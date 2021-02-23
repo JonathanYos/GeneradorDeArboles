@@ -19,6 +19,7 @@ namespace ArbolesDinamicos
             if (!IsPostBack)
             {
                 graficando = "";
+                nivel = 0;
                 lblInstrucciones.Text = "Bienvenidos a mi aplicación, esta aplicación grafica arboles basados en los parámetros dados en la tarea";
                 pnlresultado.Visible = false;
                 pnlfiltros.Visible = true;
